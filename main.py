@@ -30,4 +30,4 @@ def get_feedbacks(soup):
 
 url = "https://pcoding.ru/parsing/01/page.html"
 soup = bs4.BeautifulSoup(get_html(url), 'html.parser')
-get_feedbacks(soup)
+get_reviews(soup)
